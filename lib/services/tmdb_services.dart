@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:showcase/models/movie.dart';
 
 class TmdbService {
-  final String apiKey = '9071821d7863327f748b777d32b3aaa5';
+  final String apiKey = '';
   final String baseUrl = 'https://api.themoviedb.org/3';
 
   Future<List<Movie>> getPopularMovies({int? page}) async {
